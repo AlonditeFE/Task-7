@@ -1,0 +1,106 @@
+header{
+    background-color: rgb(97, 9, 211);
+    background-image: url("pic/P3M_-_Velvet_Room.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+}
+body{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background: rgb(36,15,60);
+    background: linear-gradient(90deg, rgba(36,15,60,1) 0%, rgba(87,15,145,1) 50%, rgba(128,0,255,1) 100%);
+    min-width: 1280px;
+    background-attachment: fixed;
+}
+main.foreground{
+  background:rgb(255, 255, 255,0.3);
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    display: inline-block;
+    margin-left: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 4px solid black;
+    
+}
+li:first-child{
+    margin-left: 0;
+}
+
+header .logo{
+    background-image: url("pic/persona_5_velvet_room_logo_by_sparteks_dbx0q8x-pre.jpg");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    height: 200px;
+    text-indent: -999999px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 4px solid rgba(0, 0, 0, 0);
+}
+
+table {
+    width:50%;
+    margin-left: auto;
+  margin-right: auto;
+  }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 15px;
+    text-align: left;
+  }
+  .t01 tr:nth-child(even) {
+    background-color: #eee;
+  }
+  .t01 tr:nth-child(odd) {
+   background-color: #fff;
+  }
+  .t01 th {
+    background-color: rgb(3, 56, 202);
+    color: white;
+  }
+  .affinity td:nth-of-type(6){
+    color: rgb(207, 4, 4);
+}
+
+/*.character {
+  display: flex; 
+  align-items: center;
+}*/
+
+.party{
+  display: flex;
+  display:inline-block
+}
+
+.character{
+  border: 3px solid rgb(41, 41, 46);
+  overflow:auto;
+  /*width: 100%;*/
+  margin-bottom: 10px;
+  margin-top: 10px;
+  
+}
+.charpic{
+  float: left;
+  min-width: 200px;
+  max-width: 250px;
+ 
+  
+}
+
+p{
+  font-size: large;
+}
+

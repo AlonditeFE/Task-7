@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persona 3 Form</title>
+    <link rel="stylesheet" href="P3style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="velvet.html">Home</a></li>
+                <li><a href="P3.html">Persona 3</a></li>
+                <li class="logo"><a href="P3.html">Persona 3 Logo</a></li>
+                <li><a href="#">Form</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="foreground">
+    <h1>Become a Member of S.E.E.S.</h1>
+    <form method="GET">
+        
+      <fieldset>
+          <legend>Personal Information</legend>
+          
+              <label for="firstName">First Name*: </label>
+              <input required type="text" name ="firstName" id="firstName" placeholder="Your first name"><br>
+          
+              <label>Last Name*: </label>
+              <input required type="text" name ="lastName"  placeholder="Your last name">
+          <br>
+          
+              <label for="email">
+                  Email Address*:
+              </label>
+              <input required type="email" id="email" name="email" placeholder="Your email address">
+          <br>
+          
+              <label for="pass">Password input*: </label>
+              <input required  type="password" name = "pass" id="pass">
+          <br>
+          
+              <label for="repass">Repeat password*: </label>
+              <input required  type="password" name ="repass" id="repass">
+          <br>
+  </fieldset>
+ 
+  
+      <fieldset>
+          <legend>Profile Information</legend>
+          <p>Grade Level<input type="radio" name="grade-level" id="freshman" value="fr"><label for="freshman">Freshman</label>
+          <input type="radio" name="grade-level" id="sophomore" value="sp"><label for="sophomore">Sophomore</label>
+          <input type="radio" name="grade-level" id="junior" value="jr"><label for="junior">Junior</label>
+          <input type="radio" name="grade-level" id="senior" value="sr"><label for="senior">Senior</label></p>
+          <br><br>
+              <label for="favorite-game">Favorite Persona Game*:</label>
+              <select required name="favorite-game" id="favorite-game">
+                  <option value="">-- Select --</option>
+                  <option value="P3">Persona 3</option>
+                  <option value="P4">Persona 4</option>
+                  <option value="P5">Persona 5</option>
+              </select>
+          <br>
+          
+              <label for="favorite-S.E.E.S.">Favorite member of S.E.E.S.*:</label>
+              <select required name="favorite-S.E.E.S." id="favorite-S.E.E.S.">
+                  <option value="">-- Select --</option>
+                  <option value="Makoto">Makoto</option>
+                  <option value="Yukari">Yukari</option>
+                  <option value="Junpei">Junpei
+                  </option>
+                  <option value="Akihiko">Akihiko</option>
+                  <option value="Mitsuru">Mitsuru</option>
+                  <option value="Aigis">Aigis</option>
+                  <option value="Ken/Koromaru">Ken/Koromaru
+                  </option>
+                  <option value="Shinjiro">Shinjiro</option>
+              </select>
+          <br>
+          
+          
+  </fieldset>
+  
+  <p>* Required <input type="submit" value="Join S.E.E.S.!"></p>
+  
+</form>
+
+    </main>
+</body>
+</html>
